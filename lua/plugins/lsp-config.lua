@@ -27,24 +27,23 @@ return {
         capabilities = capabilities
       })
       lspconfig.html.setup({
-        capabilities = capabilites
+        capabilities = capabilities
       })
       lspconfig.cssls.setup({
-        capabilities = capabilites
+        capabilities = capabilities
       })
       lspconfig.eslint.setup({
-        capabilities = capabilites
+        capabilities = capabilities
       })
       lspconfig.ts_ls.setup({
-        capabilities = capabilites
+        capabilities = capabilities
       })
       lspconfig.tailwindcss.setup({
-        capabilities = capabilites
+        capabilities = capabilities
       })
       lspconfig.emmet_ls.setup({
-        capabilities = capabilites
+        capabilities = capabilities
       })
-      
 
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
